@@ -36,8 +36,8 @@ body {
 }
 
 .cabecalho a:hover .logo {
-    color: #2e2e2e;
-    border: 2px solid #2e2e2e;
+    color: #ff5577;
+    border: 2px solid #ff5577;
 }
 
 .cabecalho .menu li a {
@@ -48,7 +48,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #2e2e2e;
+    background-color: #ff5577;
     color: #fff;
     border-radius: 50px;
 }
@@ -84,7 +84,6 @@ body {
 }
 
 .home .redes-sociais {
-    /* background-color: seagreen; */
     display: flex;
     gap: 20px;
 }
@@ -101,13 +100,13 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    color: #2e2e2e;
-    border: 1px solid #2e2e2e;
+    background-color: rgba(255, 163, 181, 0.350);
+    color: #ff5577;
+    border: 1px solid #ff5577;
     transform: scale(1.1);
 }
 
 .home .container-foto .foto {
-    background-color: deeppink;
     max-width: 450px;
     border-radius: 50%;
 }
@@ -119,7 +118,7 @@ body {
 
 .home .foto.sombra-interna {
     background: rgba(225, 148, 238, 1.0);
-    background: linear-gradient(135deg, rgba(225, 148, 238, 1.0), rgb(254, 54, 94));
+    background: linear-gradient(135deg, rgba(225, 148, 238, 1.0), rgba(254, 54, 94, 1.0));
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -141,7 +140,7 @@ body {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     justify-content: center;
 }
 
@@ -178,11 +177,19 @@ body {
     font-weight: 600;
     opacity: 0;
     transition: 0.3s;
-    padding: 20px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projetos .projeto .informacoes-projeto span {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
 }
 
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: #000;
 }
 
@@ -192,7 +199,7 @@ body {
     border-radius: 15px;
     color: #fff;
     width: 180px;
-    padding: 20px;
+    padding: 15px;
     font-size: 18px;
     font-weight: 600;
     margin: 0 auto;
@@ -203,8 +210,8 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #2e2e2e;
-    border: 1px solid #2e2e2e;
+    background-color: #b477bf;
+    border: 1px solid #b477bf;
     transition: 0.3s;
 }
 
