@@ -9,8 +9,8 @@ body {
     margin: 0 auto;
     max-width: 1120px;
 
-    background: rgba(65, 116, 111, 1.0);
-    background: linear-gradient(150deg, rgba(65, 116, 111, 1.0), rgba(231, 10, 140, 1.0));
+    background: rgba(225, 148, 238, 1.0);
+    background: linear-gradient(150deg, rgba(225, 148, 238, 1.0), rgba(238, 26, 67, 1.0));
     background-size: 120% 120%;
 }
 
@@ -36,11 +36,9 @@ body {
 }
 
 .cabecalho a:hover .logo {
-    color: #9443d8;
-    border: 2px solid #9443d8;
+    color: #2e2e2e;
+    border: 2px solid #2e2e2e;
 }
-
-.cabecalho .menu ul {}
 
 .cabecalho .menu li a {
     font-size: 20px;
@@ -50,7 +48,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #9443d8;
+    background-color: #2e2e2e;
     color: #fff;
     border-radius: 50px;
 }
@@ -103,8 +101,8 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    color: #9443d8;
-    border: 1px solid #9443d8;
+    color: #2e2e2e;
+    border: 1px solid #2e2e2e;
     transform: scale(1.1);
 }
 
@@ -120,9 +118,8 @@ body {
 }
 
 .home .foto.sombra-interna {
-    background: rgba(165, 106, 231, 1.0);
-    background: linear-gradient(135deg, rgba(165, 106, 231, 1.0), rgba(118, 161, 203, 1.0));
-
+    background: rgba(225, 148, 238, 1.0);
+    background: linear-gradient(135deg, rgba(225, 148, 238, 1.0), rgb(254, 54, 94));
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -206,7 +203,8 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #9443d8;
+    background-color: #2e2e2e;
+    border: 1px solid #2e2e2e;
     transition: 0.3s;
 }
 
