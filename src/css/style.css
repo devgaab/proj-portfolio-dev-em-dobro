@@ -9,9 +9,13 @@ body {
     margin: 0 auto;
     max-width: 1120px;
 
-    background: rgba(225, 148, 238, 1.0);
+    /* background: rgba(225, 148, 238, 1.0);
     background: linear-gradient(150deg, rgba(225, 148, 238, 1.0), rgba(238, 26, 67, 1.0));
-    background-size: 120% 120%;
+    background-size: 120% 120%; */
+
+    /* background: linear-gradient(135.8deg, rgb(26, 26, 29) 27.1%, rgb(111, 34, 50) 77.5%); */
+
+    background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
 }
 
 /* cabeçalho */
@@ -36,8 +40,9 @@ body {
 }
 
 .cabecalho a:hover .logo {
-    color: #ff5577;
-    border: 2px solid #ff5577;
+    /* color: rgb(255, 115, 115);
+    border: 2px solid rgb(255, 115, 115); */
+    transform: scale(1.1);
 }
 
 .cabecalho .menu li a {
@@ -48,7 +53,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #ff5577;
+    background-color: rgba(0, 40, 70, 0.479);
     color: #fff;
     border-radius: 50px;
 }
@@ -100,10 +105,10 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    background-color: rgba(255, 163, 181, 0.350);
-    color: #ff5577;
-    border: 1px solid #ff5577;
-    transform: scale(1.1);
+    background-color: rgba(255, 163, 181, 0.24);
+    /* color: rgb(255, 115, 115);
+    border: 1px solid rgb(255, 115, 115); */
+    /* transform: scale(1.5); */
 }
 
 .home .container-foto .foto {
@@ -117,8 +122,11 @@ body {
 }
 
 .home .foto.sombra-interna {
-    background: rgba(225, 148, 238, 1.0);
-    background: linear-gradient(135deg, rgba(225, 148, 238, 1.0), rgba(254, 54, 94, 1.0));
+    /* background: rgba(225, 148, 238, 1.0);
+    background: linear-gradient(135deg, rgba(225, 148, 238, 1.0), rgba(254, 54, 94, 1.0)); */
+
+    background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
+
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -210,8 +218,8 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #b477bf;
-    border: 1px solid #b477bf;
+    background-color: rgba(0, 40, 70, 0.7);
+    border: 1px solid rgba(0, 40, 70, 0.4);
     transition: 0.3s;
 }
 
